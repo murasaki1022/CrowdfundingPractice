@@ -1,4 +1,11 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
-
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.link-dark {
+    &:hover {
+        color: $primary !important
+    }
+}
+
+.
