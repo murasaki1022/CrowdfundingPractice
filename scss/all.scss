@@ -25,3 +25,22 @@ body {
 .btn-outline-primary:hover > i{
     color: #FF785E;
 }
+
+.nav-pills .nav-link.active{
+    border-bottom: 2px solid $primary;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.ls-2{
+    letter-spacing: 2px;
+}
+
+.ls-07{
+    letter-spacing: 0.7px;
+}
+
+.card-icon{
+    width: 30px;
+    height: 30px;
+}
