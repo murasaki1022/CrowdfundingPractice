@@ -299,7 +299,7 @@ $cyans: (
 
 // scss-docs-start theme-color-variables
 $primary:       #FFDF65 !default;
-$secondary:     $gray-600 !default;
+$secondary:     #494846 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -1110,7 +1110,7 @@ $form-validation-states: (
   "valid": (
     "color": var(--#{$prefix}form-valid-color),
     "icon": $form-feedback-icon-valid,
-    "tooltip-color": #fff,
+    "tooltip-color": $primary,
     "tooltip-bg-color": var(--#{$prefix}success),
     "focus-box-shadow": 0 0 $input-btn-focus-blur $input-focus-width rgba(var(--#{$prefix}success-rgb), $input-btn-focus-color-opacity),
     "border-color": var(--#{$prefix}form-valid-border-color),
@@ -1118,7 +1118,7 @@ $form-validation-states: (
   "invalid": (
     "color": var(--#{$prefix}form-invalid-color),
     "icon": $form-feedback-icon-invalid,
-    "tooltip-color": #fff,
+    "tooltip-color": $primary,
     "tooltip-bg-color": var(--#{$prefix}danger),
     "focus-box-shadow": 0 0 $input-btn-focus-blur $input-focus-width rgba(var(--#{$prefix}danger-rgb), $input-btn-focus-color-opacity),
     "border-color": var(--#{$prefix}form-invalid-border-color),
@@ -1405,7 +1405,7 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
 // scss-docs-start tooltip-variables
 $tooltip-font-size:                 $font-size-sm !default;
 $tooltip-max-width:                 200px !default;
-$tooltip-color:                     var(--#{$prefix}body-bg) !default;
+$tooltip-color:                     $primary;
 $tooltip-bg:                        var(--#{$prefix}emphasis-color) !default;
 $tooltip-border-radius:             var(--#{$prefix}border-radius) !default;
 $tooltip-opacity:                   .9 !default;
