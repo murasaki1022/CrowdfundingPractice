@@ -16,14 +16,14 @@ body {
 
 .btn-primary{
     &:hover {
-        background-color: #FF785E;
-        border: #FF785E;
+        background-color: $info;
+        border: $info;
         color: $white !important
     }
 }
 
 .btn-outline-primary:hover > i{
-    color: #FF785E;
+    color: $info;
 }
 
 .nav-pills .nav-link.active{
@@ -40,6 +40,10 @@ body {
     letter-spacing: 0.7px;
 }
 
+.ls-08{
+    letter-spacing: 0.8px;
+}
+
 .card-icon{
     width: 30px;
     height: 30px;
@@ -52,4 +56,17 @@ body {
 .accordion-item{
     border: 1px solid #E5E5E5;
     box-shadow: 0 0 8px 0 rgba(73,72,70,0.15);
+}
+
+.more{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.news-img{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
