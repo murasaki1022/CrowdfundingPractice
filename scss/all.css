@@ -4645,8 +4645,8 @@ textarea.form-control-lg {
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: var(--bs-border-color);
   --bs-accordion-border-width: var(--bs-border-width);
-  --bs-accordion-border-radius: var(--bs-border-radius);
-  --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-accordion-border-radius: 4px;
+  --bs-accordion-inner-border-radius: 4px;
   --bs-accordion-btn-padding-x: 1.25rem;
   --bs-accordion-btn-padding-y: 1rem;
   --bs-accordion-btn-color: var(--bs-body-color);
@@ -4660,7 +4660,7 @@ textarea.form-control-lg {
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;
   --bs-accordion-active-color: var(--bs-primary-text-emphasis);
-  --bs-accordion-active-bg: var(--bs-primary-bg-subtle);
+  --bs-accordion-active-bg: var(--bs-body-bg);
 }
 
 .accordion-button {
@@ -12589,4 +12589,9 @@ body {
 
 .h-3 {
   height: 3px;
+}
+
+.accordion-item {
+  border: 1px solid #E5E5E5;
+  box-shadow: 0 0 8px 0 rgba(73, 72, 70, 0.15);
 }/*# sourceMappingURL=all.css.map */
